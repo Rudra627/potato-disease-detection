@@ -16,7 +16,7 @@ MODEL_PATH = os.path.join(os.path.dirname(__file__), "potato_disease_model.pth")
 # Google Drive file ID for the model weights
 # Replace <YOUR_FILE_ID> with the actual ID from a shareable Google Drive link
 # Example link: https://drive.google.com/file/d/XXXXX/view  →  ID = XXXXX
-GDRIVE_FILE_ID = os.environ.get("MODEL_GDRIVE_ID", "<YOUR_FILE_ID>")
+GDRIVE_FILE_ID = os.environ.get("MODEL_GDRIVE_ID", "1JOw_PA0NT1Go1tIQx0ChwWtlxRu2sI5P")
 
 def _download_model():
     """Download model weights from Google Drive if not present locally."""
